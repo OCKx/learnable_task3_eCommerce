@@ -281,7 +281,7 @@ menu = () =>{
             }
             break;
         case 5:
-            exitApp = true;
+            console.log("Thanks and Goodbye");;
         default:
             console.log("Invalid choice. Please try again.");
     }
