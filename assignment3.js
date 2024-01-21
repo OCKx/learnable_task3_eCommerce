@@ -112,7 +112,7 @@ const cart = [
 //model: order
 let totalA = cart[1].price * cart[1].quantity;
 let totalB = cart[2].price * cart[2].quantity;
-let total = totalA * totalB;
+let total = totalA + totalB;
 const orders = [
     {
         id: 11346,
